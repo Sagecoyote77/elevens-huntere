@@ -16,6 +16,7 @@ public class CardTester {
                 System.out.println( "My card is ranked: " + x.rank() );
                 System.out.println( "My card has the suit: " + x.suit() );
                 System.out.println( "My card has the value: " + x.pointValue() );
+                
                 /* *** CARD 2 *** */
                 System.out.println( "\nCard 2 test" );
                 Card y = new Card("King", "clubs", 13 );
@@ -23,6 +24,7 @@ public class CardTester {
                 System.out.println( "My card has the suit: " + y.suit() );
                 System.out.println( "My card has the value: " + y.pointValue() );
                 System.out.println( "This should be true: " + x.matches(y) );
+                
                 /* *** CARD 3 *** */
                 System.out.println( "\nCARD 3 test" );
                 Card z = new Card("zorgon", "purple", 800);
