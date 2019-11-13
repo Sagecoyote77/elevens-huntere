@@ -90,6 +90,7 @@ public class Deck {
                 //loop k from 0 --> med
                     //copy from original array at k to new array
                         //at poistion unshuffled
+                        this.size = cards.size();
 	}
 
 	/**
